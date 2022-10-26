@@ -1,0 +1,87 @@
+/* Bootstrap's icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styling */
+body {
+    scroll-behavior: smooth;
+}
+.navbar {
+    padding: 0;
+}
+.logo {
+    width: 19rem;
+}
+.vicky {
+    width: 30rem;
+}
+/* Info section */
+#info div{
+    overflow-y: auto;
+    height: 55vh;
+    width: 40vw;
+}
+/* main */
+main {
+    min-height: 300vh;
+}
+.perfume {
+    width: 25rem;
+}
+.perfume1 {
+    width: 25rem;
+    margin: 0% 35%;
+}
+.perfume2 {
+    width: 25rem;
+    margin: 0% 70% 10%;
+}
+.modal-backdrop.show{
+    z-index: -1;
+}
+#contact {
+    font-size: 20px;
+    padding: 100px;
+    min-height: 125vh;
+    background-image: url(https://i.postimg.cc/VkHQMbgt/viclogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+#contact input {
+    background-color: white;
+}
+#contact input:hover {
+    background-color: white;
+}
+
+#contact textarea {
+    background-color: white;
+}
+.submit:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, #ff00d0, #ff058e);
+}
+footer {
+    min-width: 90vw;
+}
+@media screen and (max-width: 1395px) {
+    .navbar {
+        padding: 0;
+    }
+    .cute {
+        display: none;
+    }
+    #info {
+        margin-left: 15%;
+    }
+    #info img {
+        height: 45vh;
+        width: 40vw;
+    }
+}
